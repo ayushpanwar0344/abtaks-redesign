@@ -1533,3 +1533,18 @@ svg {
     flex-direction: column;
   }
 }
+
+.first-day {
+  width: 0;
+}
+
+.recovery-progress {
+  margin: 22px 0 18px;
+  padding: 14px;
+  border: 1px solid #39422e;
+  border-radius: 9px;
+  background: #151a11;
+  color: var(--accent);
+  font-size: 11px;
+  line-height: 1.5;
+}
