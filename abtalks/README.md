@@ -1,16 +1,70 @@
-# React + Vite
+# ABTalks — 60 Day Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A mobile-first redesign of ABTalks, a 60-day coding challenge designed
+to help college students build consistently and create public proof of
+their work.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+PASTE YOUR VERCEL URL HERE
 
-## React Compiler
+## Route Map
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+/
+/dashboard
+/day/12
 
-## Expanding the Oxlint configuration
+## Product Idea
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+ABTalks turns daily coding into a visible journey:
+
+**Build → Prove → Share**
+
+Students complete a practical task, submit GitHub proof, and share their
+progress on LinkedIn.
+
+## Standout Feature
+
+### Recovery Mode
+
+Missing a day shouldn't make a student feel like their entire challenge
+is over.
+
+Recovery Mode gives students a clear way to continue their journey after
+missing a day.
+
+## Features
+
+- Mobile-first 390px experience
+- 60-day progress tracking
+- Daily coding mission
+- GitHub proof workflow
+- LinkedIn sharing workflow
+- Streak tracking
+- Achievements
+- Milestones
+- Recovery Mode
+- First-day state
+- Empty-profile state
+
+## Tech Stack
+
+- React
+- Vite
+- React Router
+- CSS
+- Mock data
+
+## Routes
+
+| Route | Purpose |
+|---|---|
+| `/` | Landing page |
+| `/dashboard` | Student dashboard |
+| `/day/12` | Challenge Day |
+
+## Local Development
+
+```bash
+npm install
+npm run dev
